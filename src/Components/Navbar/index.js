@@ -5,7 +5,7 @@ import "../Navbar/style.css";
 
 function NavbarHeader() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar className="NavbarMain" collapseOnSelect expand="lg" sticky="top">
       <Container>
         <Navbar.Brand className="logo" href="#home">Salman</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

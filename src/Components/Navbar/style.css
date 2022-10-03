@@ -1,12 +1,26 @@
 
+.NavbarMain {
+    background-color: #23226B;
+    padding: 1.5rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+}
+
 .logo {
-    font-size: 24px;
+    font-size: 28px;
     font-style: italic;
     font-family: exo;
     font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 0.65rem;
 }
+
 .navbarFull .navLink {
     font-size: 16px;
     font-weight: 500;
     font-family: exo;
+    color: #ffffff;
+}
+
+.navbarFull .navLink:hover {
+    color: #FED130;
 }
